@@ -10,7 +10,6 @@ const StudentRegisterPage = () => {
 			</Head>
 			<PublicLayout>
 				<section>
-					<div></div>
 				</section>
 			</PublicLayout>
 		</>
