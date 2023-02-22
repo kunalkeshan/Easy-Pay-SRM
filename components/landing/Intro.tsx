@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Intro = () => {
 	return (
-		<section className='mx-auto mt-10 grid w-full max-w-6xl grid-cols-1 gap-8 py-4 px-8 md:grid-cols-2'>
+		<section className='mx-auto mt-10 grid min-h-[80vh] w-full max-w-6xl grid-cols-1 gap-8 py-4 px-8 md:grid-cols-2'>
 			<div className='flex w-full flex-col justify-center p-5'>
 				<h1 className='font-primary text-3xl font-semibold md:text-6xl'>
 					<span className='whitespace-normal text-secondary md:whitespace-nowrap'>
@@ -17,9 +18,12 @@ const Intro = () => {
 					Meet new payment platform for transactions in and around the
 					campus.
 				</h4>
-				<button className='btn mt-8 w-full md:w-fit'>
+				<Link
+					href='/student/register'
+					className='btn mt-8 w-full md:w-fit'
+				>
 					Register now
-				</button>
+				</Link>
 			</div>
 			<div className='flex w-full items-center justify-center'>
 				<div className='w-full max-w-[16rem] animate-float drop-shadow-2xl'>

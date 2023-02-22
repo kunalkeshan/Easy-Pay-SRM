@@ -11,6 +11,10 @@ const Navbar = () => {
 			url: '/',
 		},
 		{
+			page: 'About',
+			url: '/#about',
+		},
+		{
 			page: 'Features',
 			url: '/#features',
 		},
@@ -59,9 +63,12 @@ const Navbar = () => {
 				</ul>
 				<div className='mt-4 flex w-full items-center gap-4'>
 					<button className='btn w-full'>Login</button>
-					<button className='btn w-full whitespace-nowrap border-none border-primary hover:!border hover:!bg-transparent hover:text-primary'>
+					<Link
+						href='/student/register'
+						className='btn w-full whitespace-nowrap border-none border-primary hover:!border hover:!bg-transparent hover:text-primary'
+					>
 						Register now
-					</button>
+					</Link>
 				</div>
 			</div>
 		</nav>

@@ -1,10 +1,9 @@
 import Intro from '@/components/landing/Intro';
-import RetailFeatures from '@/components/landing/RetailFeatures';
+import About from '@/components/landing/About';
 import StudentFeatures from '@/components/landing/StudentFeatures';
 import PublicLayout from '@/layouts/PublicLayout';
 import Head from 'next/head';
 import ReactDOM from 'react-dom';
-
 
 export default function Home() {
 	return (
@@ -23,11 +22,9 @@ export default function Home() {
 			</Head>
 			<PublicLayout>
 				<Intro />
-				<RetailFeatures />
-				<StudentFeatures/>
+				<About />
+				<StudentFeatures />
 			</PublicLayout>
-			
-			
 		</>
 	);
 }
