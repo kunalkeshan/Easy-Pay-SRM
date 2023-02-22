@@ -14,6 +14,15 @@ module.exports = {
       fontFamily: {
         primary: 'var(--font-montserrat)',
         secondary: 'var(--font-source-sans-pro)'
+      },
+      keyframes: {
+        floating: {
+          '0%, 100%': { transform: 'translate(0,  0px)' },
+          '50%': { transform: 'translate(0, 15px)' }
+        }
+      },
+      animation: {
+        float: 'floating 3s ease-in-out infinite'
       }
     },
   },

@@ -17,7 +17,9 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<PublicLayout></PublicLayout>
+			<PublicLayout>
+				<Intro />
+			</PublicLayout>
 		</>
 	);
 }

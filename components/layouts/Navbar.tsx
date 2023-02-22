@@ -17,8 +17,8 @@ const Navbar = () => {
 	];
 
 	return (
-		<nav className='relative z-50 w-full py-4 px-8 font-secondary'>
-			<div className='z-10 mx-auto flex w-full max-w-6xl items-center justify-between bg-[#f2f2f2]'>
+		<nav className='relative z-50 w-full bg-[#f2f2f2] py-4 px-8 font-secondary'>
+			<div className='z-10 mx-auto flex w-full max-w-6xl items-center justify-between'>
 				<Link href='/' className='text-3xl font-semibold'>
 					easypay
 				</Link>
