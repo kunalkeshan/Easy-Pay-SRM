@@ -27,9 +27,9 @@ const RetailFeatures = () => {
 
 
 	return (
-		<div className='flex'>
+		<div className='flex flex-col items-center'>
 			<h1 className='text-7xl m-6'> <span className='text-blue-900'>Why</span> <span className='text-yellow-500'>choose us</span>  </h1>
-			<div>
+			<div className='flex flex-row items-center '>
 				{dataItems}
 			</div>
 		</div>
