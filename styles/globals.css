@@ -10,4 +10,13 @@ body {
 	width: 100%;
 	min-height: 100vh;
 	background-color: #f2f2f2;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn {
+	@apply rounded-xl border border-secondary px-6 py-4 font-primary font-semibold text-secondary transition-all duration-300 hover:bg-secondary hover:text-white;
+}
+
+.input {
+	@apply w-full border-b-2 border-black border-opacity-80 bg-transparent py-2 outline-none transition-all duration-300 focus:border-opacity-100;
 }

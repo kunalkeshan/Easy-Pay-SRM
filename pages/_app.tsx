@@ -14,13 +14,13 @@ const sourceSansPro = Source_Sans_Pro({
 	subsets: ['latin'],
 	weight: ['200', '300', '400', '600', '700', '900'],
 	style: ['normal', 'italic'],
-	variable: '--font-sourceSansPro',
+	variable: '--font-source-sans-pro',
 });
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<main
-			className={`${montserrat.variable} ${sourceSansPro.variable} min-h-screen w-full font-sourceSansPro`}
+			className={`${montserrat.variable} ${sourceSansPro.variable} font-secondary min-h-screen w-full`}
 		>
 			<SessionProvider session={pageProps.session}>
 				<Component {...pageProps} />
