@@ -1,3 +1,4 @@
+import Intro from '@/components/landing/Intro';
 import PublicLayout from '@/layouts/PublicLayout';
 import Head from 'next/head';
 

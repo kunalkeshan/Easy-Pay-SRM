@@ -7,7 +7,7 @@ const PublicLayout: NextPage<PropsWithChildren> = ({ children }) => {
 	return (
 		<>
 			<Navbar />
-			<main>{children}</main>
+			<main className='h-full w-full'>{children}</main>
 			<Footer />
 		</>
 	);
