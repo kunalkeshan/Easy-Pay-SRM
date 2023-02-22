@@ -7,7 +7,16 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#FFCA4A',
+        secondary: '#034DA1'
+      },
+      fontFamily: {
+        montserrat: '--font-montserrat',
+        sourceSansPro: '--font-sourceSansPro'
+      }
+    },
   },
   plugins: [],
 }
