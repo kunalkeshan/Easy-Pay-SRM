@@ -1,31 +1,34 @@
 import React from 'react';
-import Image from 'next/image'
-
+import Image from 'next/image';
 
 const Intro = () => {
 	return (
-		<div className="flex">
-			<div className="w-1/2 flex flex-col p-5  justify-center">
-				<h1 className='text-7xl m-6'> <span className='text-blue-900'>The hassle-free</span> <span className='text-yellow-500'>way to pay</span>  </h1>
-				<h4 className='text-2xl m-6'>Meet new payment platform for transactions in and around the campus.</h4>
+		<div className='flex min-h-screen w-full'>
+			<div className='flex w-1/2 flex-col justify-center p-5'>
+				<h1 className='m-6 text-7xl'>
+					{' '}
+					<span className='text-blue-900'>The hassle-free</span>{' '}
+					<span className='text-yellow-500'>way to pay</span>{' '}
+				</h1>
+				<h4 className='m-6 text-2xl'>
+					Meet new payment platform for transactions in and around the
+					campus.
+				</h4>
 				<button>Register now</button>
 			</div>
-			<div className='w-1/2 flex justify-center'>
-
-				<Image
-					src="/assets/srm-id-card.png"
-					sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
-					alt="id-card"
-					width={300}
-					height={300}
-					
-				/>
-
+			<div className='flex w-1/2 justify-center'>
+				<div className='w-full max-w-sm'>
+					<Image
+						src='/assets/srm-id-card.png'
+						alt='id-card'
+						width={300}
+						height={300}
+						className='h-auto w-full object-contain'
+					/>
+				</div>
 			</div>
-
 		</div>
-
-	)
+	);
 };
 
 export default Intro;

@@ -20,7 +20,7 @@ const sourceSansPro = Source_Sans_Pro({
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<main
-			className={`${montserrat.variable} ${sourceSansPro.variable} min-h-screen w-full font-sourceSansPro`}
+			className={`${montserrat.variable} ${sourceSansPro.variable} font-secondary min-h-screen w-full`}
 		>
 			<SessionProvider session={pageProps.session}>
 				<Component {...pageProps} />
