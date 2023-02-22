@@ -5,7 +5,7 @@ const Intro = () => {
 	return (
 		<section className='mx-auto mt-10 grid w-full max-w-6xl grid-cols-1 gap-8 py-4 px-8 md:grid-cols-2'>
 			<div className='flex w-full flex-col justify-center p-5'>
-				<h1 className='font-primary text-6xl font-semibold'>
+				<h1 className='font-primary text-3xl font-semibold md:text-6xl'>
 					<span className='whitespace-normal text-secondary md:whitespace-nowrap'>
 						The hassle-free
 					</span>{' '}
@@ -13,7 +13,7 @@ const Intro = () => {
 						way to pay
 					</span>
 				</h1>
-				<h4 className='mt-4 text-2xl'>
+				<h4 className='mt-4 text-lg md:text-2xl'>
 					Meet new payment platform for transactions in and around the
 					campus.
 				</h4>
